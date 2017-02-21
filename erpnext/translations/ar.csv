@@ -1256,7 +1256,7 @@ DocType: Address,Is Your Company Address,هل لديك عنوان الشركة
 DocType: Email Digest,Annual Income,الدخل السنوي
 DocType: Serial No,Serial No Details,تفاصيل الرقم المسلسل
 DocType: Purchase Invoice Item,Item Tax Rate,معدل ضريبة البند
-apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +134,"For {0}, only credit accounts can be linked against another debit entry",لـ {0} , فقط الحسابات الدائنه يمكن ربطها بقيد مدين أخر
+apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py +134,"For {0}, only credit accounts can be linked against another debit entry","لـ {0} , فقط الحسابات الدائنه يمكن ربطها بقيد مدين أخر"
 apps/erpnext/erpnext/projects/doctype/project/project.py +64,Total of all task weights should be 1. Please adjust weights of all Project tasks accordingly,يجب أن يكون مجموع كل الأوزان مهمة 1. الرجاء ضبط أوزان جميع المهام المشروع وفقا لذلك
 apps/erpnext/erpnext/accounts/doctype/sales_invoice/sales_invoice.py +533,Delivery Note {0} is not submitted,ملاحظة التسليم {0} لم تقدم
 apps/erpnext/erpnext/stock/get_item_details.py +132,Item {0} must be a Sub-contracted Item,البند {0} يجب أن يكون عنصر التعاقد الفرعي
@@ -1452,7 +1452,7 @@ DocType: Item Group,Item Group Name,اسم مجموعة البند
 apps/erpnext/erpnext/hr/report/employee_leave_balance/employee_leave_balance.py +27,Taken,مأخوذ
 DocType: Pricing Rule,For Price List,لقائمة أسعار
 apps/erpnext/erpnext/setup/setup_wizard/industry_type.py +27,Executive Search,البحث التنفيذي
-apps/erpnext/erpnext/stock/stock_ledger.py +426,"Purchase rate for item: {0} not found, which is required to book accounting entry (expense). Please mention item price against a buying price list.",معدر الشراء للصنف : {0} لم يتم ايجاده , وهو مطلوب لتسجيل قيد محاسبي (مصروف) . برجاء تحديد سعر الصنف مقابل قائمة اسعار الشراء
+apps/erpnext/erpnext/stock/stock_ledger.py +426,"Purchase rate for item: {0} not found, which is required to book accounting entry (expense). Please mention item price against a buying price list.","معدل الشراء للصنف : {0} لم يتم ايجاده , وهو مطلوب لتسجيل قيد محاسبي (مصروف) . برجاء تحديد سعر الصنف مقابل قائمة اسعار الشراء"
 DocType: Maintenance Schedule,Schedules,جداول
 DocType: Purchase Invoice Item,Net Amount,صافي القيمة
 DocType: Purchase Order Item Supplied,BOM Detail No,BOM تفاصيل لا
